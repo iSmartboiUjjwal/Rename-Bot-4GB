@@ -60,7 +60,7 @@ Payment Details :-
 <b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
 <b>➜ QR Code :</b> <a href='https://telegra/QR-Payment-07-24-4'>Click Here</a>
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+After Payment Send Screenshots Of Payment To Admin Officials"""
     
     keybord = InlineKeyboardMarkup([
         [InlineKeyboardButton("🦋 Admin", url = "telegram link update soon "),
