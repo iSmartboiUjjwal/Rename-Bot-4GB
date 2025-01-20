@@ -24,7 +24,7 @@ Price Rs 179  ind /🌎 2.16$  per Month
 
 Payment Details :-
 <b>➜ UPI ID :</b> <code>comming soon..</code>
-<b>➜ PayPal :</b> <a href='paypal I'd upload soon:</b> <a href='https://telegra/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ PayPal :</b> <a href='paypal I'd upload soon:</b> <a'>Click Here</a>
 
 After Payment Send Screenshots Of Payment To Admin Officials"""
     
@@ -58,7 +58,7 @@ Price Rs 179  ind /🌎 2.16$  per Month
 Payment Details :-
 <b>➜ UPI ID :</b> <code>cooming soon..</code>
 <b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ QR Code :</b> <a>Click Here</a>
 
 After Payment Send Screenshots Of Payment To Admin Officials"""
     
