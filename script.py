@@ -21,15 +21,14 @@ class script(object):
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/Bimbo69'>Developer</a>
-
-<b>♻️ Bot Made By :</b> @bimbo69"""
+<b>♻️ Bot Made By :</b> @Bimbo69"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> <code>karangorai255@ybl</code> 
+<b>🛍 UPI ID:</b> <code>update soon...</code> 
 
 <b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
 
