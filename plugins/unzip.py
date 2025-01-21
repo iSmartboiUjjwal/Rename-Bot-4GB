@@ -12,9 +12,9 @@ active_tasks = {}
 @Client.on_message(filters.private & filters.command(["unzip"]))
 async def handle_file(client, message):
     user_id = message.from_user.id
-    document = message.reply_to_message.document
+    rtm = message.reply_to_message
 
-    if document.mime_type == 'application/zip':
+    if rtm and rtm.document and rtm.document.mime_type == 'application/zip':
         download_message = None
         file_path = None
         unzip_dir = None
@@ -22,7 +22,7 @@ async def handle_file(client, message):
             download_message = await message.reply("⏳ Downloading the ZIP file...")
             start = time.time()
 
-            file_path = await message.reply_to_message.download(
+            file_path = await rtm.download(
                 file_name=document.file_name,
                 progress=progress_for_pyrogram,
                 progress_args=("⬇️ Downloading...", download_message, start)
