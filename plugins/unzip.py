@@ -9,10 +9,10 @@ import asyncio
 
 active_tasks = {}
 
-@Client.on_message(filters.document)
+@Client.on_message(filters.private & filters.command(["unzip"]))
 async def handle_file(client, message):
     user_id = message.from_user.id
-    document = message.document
+    document = message.reply_to_message.document
 
     if document.mime_type == 'application/zip':
         download_message = None
@@ -22,7 +22,7 @@ async def handle_file(client, message):
             download_message = await message.reply("⏳ Downloading the ZIP file...")
             start = time.time()
 
-            file_path = await message.download(
+            file_path = await message.reply_to_message.download(
                 file_name=document.file_name,
                 progress=progress_for_pyrogram,
                 progress_args=("⬇️ Downloading...", download_message, start)
@@ -52,7 +52,7 @@ async def handle_file(client, message):
             active_tasks.pop(user_id, None)
 
     else:
-        await message.reply("⚠️ Please send a valid ZIP file.")
+        await message.reply("⚠️ Please reply to a valid ZIP file.")
 
 
 async def extract_and_send_files(client, message, file_path, unzip_dir, download_message, start):
